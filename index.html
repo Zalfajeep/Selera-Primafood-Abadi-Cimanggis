@@ -35,10 +35,48 @@
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
-        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
+
+      <!-- Search Form Start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form End -->
+
+      <!-- Shopping Cart start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/menu/1.JPG" alt="Bakso Daging Sapi" />
+          <div class="item-detail">
+            <h3>Bakso Daging Sapi</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/menu/1.JPG" alt="Bakso Daging Sapi" />
+          <div class="item-detail">
+            <h3>Bakso Daging Sapi</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/menu/1.JPG" alt="Bakso Daging Sapi" />
+          <div class="item-detail">
+            <h3>Bakso Daging Sapi</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart end  -->
     </nav>
     <!-- Navbar end -->
 
@@ -46,10 +84,7 @@
     <section class="hero" id="home">
       <main class="content">
         <h1>Olahan Daging <span>Premium</span></h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta,
-          commodi.
-        </p>
+        <p>Rasa asli, bakso berkualitas</p>
         <a href="#" class="cta">beli sekarang</a>
       </main>
     </section>
@@ -66,13 +101,14 @@
         <div class="content">
           <h3>Sekilas Tentang Kami</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-            maxime sunt molestias nam ea cupiditate.
+            Perusahaan kami merupakan sebuah industri manufaktur makanan yang
+            telah berkomitmen untuk selalu menghadirkan produk makanan yang
+            lezat dan bergizi.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-            hic, illum esse similique facere velit quidem quaerat laboriosam
-            numquam possimus.
+            Kegiatan utama perusahaan kami adalah memproduksi bakso, otak-otak,
+            dan frozen food, lokasi PT kami di jalan Blok 5, Jl. Mekarsari raya
+            no.10, mekarsari, kecamatan cimanggis, kota depok, jawa barat, 16952
           </p>
         </div>
       </div>
@@ -81,120 +117,69 @@
 
     <!-- Menu Section start -->
     <section id="menu" class="menu">
-      <h2><span>Produk</span> Kami</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam eum
-        accusantium corporis nostrum laudantium ipsa?
-      </p>
+      <h2><span>Menu</span> Kami</h2>
+      <p>Berikut beberapa jenis bakso yang kami tawarkan</p>
 
       <div class="row">
         <div class="menu-card">
-          <img
-            src="img/menu/1.JPG"
-            alt="CM 77 10/50 PCS"
-            class="menu-card-img"
-          />
-          <h3 class="menu-card-title">- CM 77 10/50 PCS -</h3>
-          <p class="menu-card-price">IDR 20K</p>
+          <div class="menu-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="menu-image">
+            <img src="img/menu/1.JPG" alt="Produk 1" />
+          </div>
+          <div class="menu-content">
+            <h3>Bakso Daging Sapi</h3>
+            <div class="menu-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="menu-price">IDR 30K <span>IDR 55K</span></div>
+          </div>
         </div>
         <div class="menu-card">
-          <img
-            src="img/menu/1.JPG"
-            alt="CM 77 10/50 PCS"
-            class="menu-card-img"
-          />
-          <h3 class="menu-card-title">- CM 77 10/50 PCS -</h3>
-          <p class="menu-card-price">IDR 20K</p>
+          <div class="menu-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="menu-image">
+            <img src="img/menu/1.JPG" alt="Produk 1" />
+          </div>
+          <div class="menu-content">
+            <h3>Bakso Daging Sapi</h3>
+            <div class="menu-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="menu-price">IDR 30K <span>IDR 55K</span></div>
+          </div>
         </div>
         <div class="menu-card">
-          <img
-            src="img/menu/1.JPG"
-            alt="CM 77 10/50 PCS"
-            class="menu-card-img"
-          />
-          <h3 class="menu-card-title">- CM 77 10/50 PCS -</h3>
-          <p class="menu-card-price">IDR 20K</p>
-        </div>
-        <div class="menu-card">
-          <img
-            src="img/menu/1.JPG"
-            alt="CM 77 10/50 PCS"
-            class="menu-card-img"
-          />
-          <h3 class="menu-card-title">- CM 77 10/50 PCS -</h3>
-          <p class="menu-card-price">IDR 20K</p>
-        </div>
-        <div class="menu-card">
-          <img
-            src="img/menu/1.JPG"
-            alt="CM 77 10/50 PCS"
-            class="menu-card-img"
-          />
-          <h3 class="menu-card-title">- CM 77 10/50 PCS -</h3>
-          <p class="menu-card-price">IDR 20K</p>
-        </div>
-        <div class="menu-card">
-          <img
-            src="img/menu/1.JPG"
-            alt="CM 77 10/50 PCS"
-            class="menu-card-img"
-          />
-          <h3 class="menu-card-title">- CM 77 10/50 PCS -</h3>
-          <p class="menu-card-price">IDR 20K</p>
-        </div>
-        <div class="menu-card">
-          <img
-            src="img/menu/1.JPG"
-            alt="CM 77 10/50 PCS"
-            class="menu-card-img"
-          />
-          <h3 class="menu-card-title">- CM 77 10/50 PCS -</h3>
-          <p class="menu-card-price">IDR 20K</p>
-        </div>
-        <div class="menu-card">
-          <img
-            src="img/menu/1.JPG"
-            alt="CM 77 10/50 PCS"
-            class="menu-card-img"
-          />
-          <h3 class="menu-card-title">- CM 77 10/50 PCS -</h3>
-          <p class="menu-card-price">IDR 20K</p>
-        </div>
-        <div class="menu-card">
-          <img
-            src="img/menu/1.JPG"
-            alt="CM 77 10/50 PCS"
-            class="menu-card-img"
-          />
-          <h3 class="menu-card-title">- CM 77 10/50 PCS -</h3>
-          <p class="menu-card-price">IDR 20K</p>
-        </div>
-        <div class="menu-card">
-          <img
-            src="img/menu/1.JPG"
-            alt="CM 77 10/50 PCS"
-            class="menu-card-img"
-          />
-          <h3 class="menu-card-title">- CM 77 10/50 PCS -</h3>
-          <p class="menu-card-price">IDR 20K</p>
-        </div>
-        <div class="menu-card">
-          <img
-            src="img/menu/1.JPG"
-            alt="CM 77 10/50 PCS"
-            class="menu-card-img"
-          />
-          <h3 class="menu-card-title">- CM 77 10/50 PCS -</h3>
-          <p class="menu-card-price">IDR 20K</p>
-        </div>
-        <div class="menu-card">
-          <img
-            src="img/menu/1.JPG"
-            alt="CM 77 10/50 PCS"
-            class="menu-card-img"
-          />
-          <h3 class="menu-card-title">- CM 77 10/50 PCS -</h3>
-          <p class="menu-card-price">IDR 20K</p>
+          <div class="menu-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="menu-image">
+            <img src="img/menu/1.JPG" alt="Produk 1" />
+          </div>
+          <div class="menu-content">
+            <h3>Bakso Daging Sapi</h3>
+            <div class="menu-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="menu-price">IDR 30K <span>IDR 55K</span></div>
+          </div>
         </div>
       </div>
     </section>
@@ -203,10 +188,7 @@
     <!-- Contact Section start -->
     <section id="contact" class="contact">
       <h2><span>Kontak</span> Kami</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-        excepturi!
-      </p>
+      <p>Untuk informasi lebih lanjut, hubungi kami melalui :</p>
 
       <div class="row">
         <iframe
